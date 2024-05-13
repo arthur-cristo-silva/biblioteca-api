@@ -29,8 +29,8 @@ public class Borrowing {
     public Borrowing(BorrowingDTO data) {
 
         this.id = data.id();
-        this.user = data.user();
-        this.book = data.book();
+        // this.user = data.userId();
+        // this.book = data.bookId();
         this.timestamp = LocalDateTime.now();
     }
 }
